@@ -1,0 +1,32 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-image: url(bg6.jpg);
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+h3 {
+    margin: 10px 0;
+}
+h1{
+    font-size: 50px;
+    display: inline;
+    background-color: rgb(176, 194, 195);
+    border-radius: 10px;
+}

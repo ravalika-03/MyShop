@@ -1,0 +1,27 @@
+/* program on css3 style sheet grid flex property */
+.outbox{
+    display: flex;
+    grid-gap: 10px;
+    background-color: greenyellow;
+    padding: 10px;
+}
+.c1{
+    background-color: rgb(255,255,255);
+    text-align: center;
+    padding:25px 0;
+    font-size: 30px;
+    width: 19%;
+    height: 30px;
+}
+a{
+    color: balck;
+    text-decoration: none;
+}
+.reg{
+    background-color: rgb(243,197,197);
+    padding: 10px;
+    text-align: center;
+}
+*{
+    background-color: antiquewhite;
+}

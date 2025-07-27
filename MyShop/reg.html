@@ -1,0 +1,56 @@
+<!-- exp-3 javascript -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validate(){
+        var un=f1.n.value;
+        if(n.length <= 0)
+        {
+            alert("Please enter username");
+        }
+        if(un.length >  0)
+        {
+            alert("welcome"+un);
+        }
+        var p=f1.p.value;
+        if(p.length < 6){
+            alert("please enter minimum 6 character password"); 
+        }
+        var ge == f1.g.value;
+    if (ge=="male"){
+        alert("male selected");
+    }
+    if (ge=="female"){
+        alert("female selected");
+    }
+    var em=fi.e.value;
+    for(let i=0;i<em.length;i++){
+    if(em.chatAt(i)=="@") {
+        flag=true; break;
+    }
+    // else {
+            // flag = false;
+        // }
+    }
+    if(flag==false){
+        alert("please enter vaild mail id");
+    }
+}
+    </script>
+</head>
+<body>
+    <form name="f1">
+        username <input type="text" name="n"><br><br>
+        password <input type="password" name="p"><br><br>
+        gender <input type="radio" name="g" id=""> Male 
+        <input type="radio" name="g"> Female <br><br>
+        email <input type="email" name="e"> <br><br>
+
+        <input type="button" value="click me" onclick="validate()">
+    </form>
+</body>
+</html>
